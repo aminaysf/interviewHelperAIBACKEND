@@ -1,0 +1,52 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock  # Include if you use Yarn; omit if you use npm
+package-lock.json  # Include if you want to exclude npm lockfile; omit if you want to track it
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+
+# Logs
+*.log
+logs/
+npm.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*.cache
+.DS_Store  # macOS-specific
+Thumbs.db  # Windows-specific
+
+# Editor/IDE files
+.vscode/  # Exclude VS Code settings (remove if you want to share settings)
+.idea/    # JetBrains IDEs
+*.sublime-workspace
+
+# Test files (optional, depending on your needs)
+test-results/
+coverage/
+
+# Large files or datasets (project-specific, e.g., for mammoAI)
+data/
+
+
+# Other common ignores
+*.pid
+*.seed
+*.pid.lock
